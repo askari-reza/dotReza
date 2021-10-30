@@ -1,0 +1,20 @@
+{
+  "mail": {
+    "title": "mail@dotreza.com",
+    "link": "mail@dotreza.com"
+  },
+  "tel": {
+    "title": "(+98)936-000-8696",
+    "link": "00989360008696"
+  },
+  "instagram": {
+    "title": "Instagram",
+    "link": "https://instagram.com/reza",
+    "icon": "mdiInstagram"
+  },
+  "linkedin": {
+    "title": "Linkedin",
+    "link": "https://linkedin.com/reza",
+    "icon": "mdiLinkedin"
+  }
+}

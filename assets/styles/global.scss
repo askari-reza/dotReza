@@ -1,0 +1,12 @@
+// @import './fonts';
+.position-relative {
+  position: relative;
+}
+.centered-y {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.font-style-normal {
+  font-style: normal;
+}

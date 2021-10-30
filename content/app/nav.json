@@ -1,0 +1,24 @@
+{
+  "nav": [
+    {
+      "title": "home",
+      "link": "/",
+      "icon": "mdiHome"
+    },
+    {
+      "title": "my works",
+      "link": "works",
+      "icon": ""
+    },
+    {
+      "title": "about me",
+      "link": "about",
+      "icon": "mdiCardAccountDetails"
+    },
+    {
+      "title": "contact",
+      "link": "contact",
+      "icon": "mdiEmail"
+    }
+  ]
+}
