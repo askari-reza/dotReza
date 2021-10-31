@@ -2,8 +2,7 @@
   <v-row class="mt-16 py-16" justify="center">
     <v-col cols="9" class="position-relative">
       <v-img
-        class="t"
-        :src="src"
+        :src="content.image"
         width="100"
         max-width="100%"
         max-height="100%"
@@ -41,11 +40,6 @@ export default {
       type: Object,
       required: true,
     },
-  },
-  data() {
-    return {
-      src: require('~/assets/images/test-02.png'),
-    }
   },
 }
 </script>

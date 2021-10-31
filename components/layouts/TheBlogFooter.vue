@@ -1,5 +1,5 @@
 <template>
-  <v-footer class="d-block" padless inset app>
+  <v-footer class="d-block" padless inset>
     <v-row justify="center">
       <v-col cols="auto">
         <v-card flat color="transparent">

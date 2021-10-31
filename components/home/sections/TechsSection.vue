@@ -12,9 +12,9 @@
             :show-arrows="false"
             vertical
           >
-            <v-carousel-item v-for="(img, i) in imgs" :key="i">
+            <v-carousel-item v-for="(image, i) in content.images" :key="i">
               <v-img
-                :src="require(`~/assets/images/${img}`)"
+                :src="image"
                 class="rounded-circle mx-auto"
                 width="50"
                 max-width="100%"

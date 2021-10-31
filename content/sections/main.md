@@ -1,6 +1,7 @@
 ---
 title: Reza Askari
 subtitle: Frontend Developer and Music lover
+image: /images/sections/main/001.png
 cta:
     link: https://reza.com
     text: let's chat

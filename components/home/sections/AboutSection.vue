@@ -4,13 +4,7 @@
     <v-col cols="9">
       <v-row class="elevation-10" no-gutters>
         <v-col>
-          <v-img
-            :src="src"
-            width="250"
-            max-width="100%"
-            max-height="100%"
-            :aspect-ratio="3 / 2"
-          ></v-img>
+          <v-img :src="content.image" :aspect-ratio="16 / 9"></v-img>
         </v-col>
         <v-col>
           <v-card flat>

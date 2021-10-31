@@ -36,7 +36,6 @@
 export default {
   layout: 'blog',
   async asyncData({ $content, params }) {
-    
     const article = await $content('blog', params.slug).fetch()
     return { article }
   },

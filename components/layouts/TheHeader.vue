@@ -4,7 +4,7 @@
   >
     <h1 class="ma-0 title">Title</h1>
     <div>
-      <span class="subtitle-1">Web devloper </span>
+      <span class="subtitle-1">Web developer </span>
       <v-divider></v-divider>
       <span class="subtitle-2"> frontend </span>
     </div>
