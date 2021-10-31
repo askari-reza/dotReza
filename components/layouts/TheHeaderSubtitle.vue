@@ -8,18 +8,27 @@
       <span class="subtitle-2"> frontend </span>
     </div>
     <div>
-      <v-btn text href="#">CALL ME. (+98)936-000-8696</v-btn>
+      <v-btn v-if="content.tel" text link :href="content.tel.link">
+        {{ content.tel.title }}
+      </v-btn>
       <span>/</span>
-      <v-btn text href="#">mail@dotreza.com</v-btn>
+      <v-btn v-if="content.mail" text link :href="content.mail.link">
+        {{ content.mail.title }}
+      </v-btn>
     </div>
   </div>
 </template>
 
 <script>
+import { mdiPhone, mdiEmail } from '@mdi/js'
 export default {
-  name: 'TheHeader',
+  name: 'TheHeaderSubtitle',
   data() {
-    return {}
+    return {
+      content: {},
+      mdiPhone,
+      mdiEmail,
+    }
   },
   async fetch() {
     const content = await this.$nuxt.context
@@ -28,7 +37,7 @@ export default {
       .fetch()
     const unusedItems = ['extension', 'path']
     unusedItems.forEach((item) => delete content[item])
-    this.contact = content
+    this.content = content
   },
 }
 </script>

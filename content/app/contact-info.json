@@ -1,11 +1,11 @@
 {
   "mail": {
     "title": "mail@dotreza.com",
-    "link": "mail@dotreza.com"
+    "link": "mailto:mail@dotreza.com"
   },
   "tel": {
     "title": "(+98)936-000-8696",
-    "link": "00989360008696"
+    "link": "tel:00989360008696"
   },
   "instagram": {
     "title": "Instagram",
