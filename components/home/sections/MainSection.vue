@@ -30,10 +30,8 @@
 </template>
 
 <script>
-import AppSocials from '~/components/app/AppSocials.vue'
 export default {
   name: 'MainSection',
-  components: { AppSocials },
   props: {
     content: {
       type: Object,

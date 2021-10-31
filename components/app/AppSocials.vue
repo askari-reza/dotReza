@@ -19,7 +19,7 @@
 </template>
 
 <script>
-import { mdiLinkedin, mdiInstagram } from '@mdi/js'
+import { mdiLinkedin, mdiInstagram, mdiGithub, mdiTwitter } from '@mdi/js'
 
 export default {
   name: 'AppSocials',
@@ -37,7 +37,7 @@ export default {
   },
   data() {
     return {
-      icons: { mdiLinkedin, mdiInstagram },
+      icons: { mdiLinkedin, mdiInstagram, mdiGithub, mdiTwitter },
       contact: {},
       ripple: false,
     }
@@ -45,7 +45,7 @@ export default {
   async fetch() {
     const content = await this.$nuxt.context
       .$content('app/contact-info')
-      .only(['instagram', 'linkedin'])
+      .only(['instagram', 'linkedin', 'github', 'twitter'])
       .fetch()
     const unusedItems = ['extension', 'path']
     unusedItems.forEach((item) => delete content[item])

@@ -11,13 +11,7 @@
 </template>
 
 <script>
-import TheBlogFooter from '~/components/layouts/TheBlogFooter.vue'
-import TheBlogHeader from '~/components/layouts/TheBlogHeader.vue'
 export default {
-  components: {
-    TheBlogHeader,
-    TheBlogFooter,
-  },
   data() {
     return {}
   },

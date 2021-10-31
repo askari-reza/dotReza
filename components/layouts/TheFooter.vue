@@ -3,7 +3,7 @@
     <v-row justify="center">
       <v-col cols="auto">
         <v-card flat color="transparent">
-          <v-card-title class="text-center"> stay conected </v-card-title>
+          <v-card-title class="justify-center"> stay conected </v-card-title>
           <v-card-text>
             <address class="d-flex flex-column">
               <v-btn text href="mailto:" class="headline font-style-normal"
@@ -45,20 +45,19 @@
       </v-row>
     </v-container>
     <v-row no-gutters>
-      <v-col>color 1</v-col>
-      <v-col>color 2</v-col>
-      <v-col>color 3</v-col>
-      <v-col>color 4</v-col>
+      <v-col class="primary">
+        <v-sheet color="primary" height="20" width="100%"></v-sheet>
+      </v-col>
+      <v-col class="secondary">
+        <v-sheet color="secondary" height="20" width="100%"></v-sheet>
+      </v-col>
     </v-row>
   </v-footer>
 </template>
 
 <script>
-import AppNav from '../app/AppNav.vue'
-import AppSocials from '../app/AppSocials.vue'
 export default {
   name: 'TheFooter',
-  components: { AppNav, AppSocials },
   computed: {
     currentYear() {
       return new Date().getFullYear()

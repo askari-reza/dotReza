@@ -16,5 +16,15 @@
     "title": "Linkedin",
     "link": "https://linkedin.com/reza",
     "icon": "mdiLinkedin"
+  },
+  "github": {
+    "title": "Github",
+    "link": "https://github.com/reza",
+    "icon": "mdiGithub"
+  },
+   "twitter": {
+    "title": "Github",
+    "link": "https://github.com/reza",
+    "icon": "mdiTwitter"
   }
 }

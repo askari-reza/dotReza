@@ -54,11 +54,8 @@
 </template>
 
 <script>
-import AppNav from '../app/AppNav.vue'
-import AppSocials from '../app/AppSocials.vue'
 export default {
   name: 'TheFooter',
-  components: { AppNav, AppSocials },
   computed: {
     currentYear() {
       return new Date().getFullYear()

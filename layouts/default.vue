@@ -1,6 +1,8 @@
 <template>
   <v-app dark>
     <v-app-bar app clipped-right>
+      <v-toolbar-title>Title</v-toolbar-title>
+      <v-spacer></v-spacer>
       <the-header></the-header>
       <v-spacer></v-spacer>
       <v-app-bar-nav-icon @click="drawer = !drawer">
@@ -28,10 +30,7 @@
 
 <script>
 import { mdiMenu, mdiClose } from '@mdi/js'
-import TheHeader from '~/components/layouts/TheHeader.vue'
-import TheFooter from '~/components/layouts/TheFooter.vue'
 export default {
-  components: { TheHeader, TheFooter },
   data() {
     return {
       mdiMenu,

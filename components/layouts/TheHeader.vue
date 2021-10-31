@@ -2,7 +2,6 @@
   <div
     class="d-flex align-center justify-center justify-space-between flex-grow-1"
   >
-    <h1 class="ma-0 title">Title</h1>
     <div>
       <span class="subtitle-1">Web developer </span>
       <v-divider></v-divider>

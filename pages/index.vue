@@ -10,21 +10,7 @@
 </template>
 
 <script>
-import AboutSection from '~/components/home/sections/AboutSection.vue'
-import BannerSection from '~/components/home/sections/BannerSection.vue'
-import InquirySection from '~/components/home/sections/InquirySection.vue'
-import MainSection from '~/components/home/sections/MainSection.vue'
-import TechsSection from '~/components/home/sections/TechsSection.vue'
-// import WorksSection from '~/components/sections/WorksSection.vue'
 export default {
-  components: {
-    MainSection,
-    AboutSection,
-    TechsSection,
-    BannerSection,
-    InquirySection,
-    // WorksSection,
-  },
   async asyncData({ $content }) {
     try {
       const [main, about, inquiry, techs] = await Promise.all([
