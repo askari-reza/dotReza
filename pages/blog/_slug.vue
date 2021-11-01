@@ -64,11 +64,11 @@ export default {
 /***
 This is useful for linking to that section of the page 
 ***/
-::v-deep .icon.icon-link {
+/* ::v-deep .icon.icon-link {
   background-image: url('~assets/images/icon-hashtag.svg');
   display: inline-block;
   width: 20px;
   height: 20px;
   background-size: 20px 20px;
-}
+} */
 </style>

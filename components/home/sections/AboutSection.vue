@@ -40,9 +40,7 @@ export default {
     },
   },
   data() {
-    return {
-      src: require('~/assets/images/test-02.png'),
-    }
+    return {}
   },
 }
 </script>
