@@ -1,12 +1,11 @@
 <template>
-  <v-row class="position-relative">
-    <v-spacer></v-spacer>
-    <v-col cols="9">
-      <v-row class="elevation-10" no-gutters>
-        <v-col>
-          <v-img :src="content.image" :aspect-ratio="16 / 9"></v-img>
+  <div class="position-relative">
+    <v-container>
+      <v-row no-gutters>
+        <v-col cols="12" sm="6">
+          <v-img :src="content.image" contain :aspect-ratio="16 / 9"></v-img>
         </v-col>
-        <v-col>
+        <v-col cols="12" sm="6">
           <v-card flat>
             <v-card-subtitle class="text-uppercase pb-0">
               {{ content.subtitle }}
@@ -20,14 +19,14 @@
           </v-card>
         </v-col>
       </v-row>
-    </v-col>
-    <v-spacer></v-spacer>
-    <div class="centered-y">
-      <p class="rotate-90 text-uppercase subtitle-1 text--secondary">
-        about me
-      </p>
+    </v-container>
+    <div
+      v-if="!$vuetify.breakpoint.mobile"
+      class="centered-y rotate-90 text-uppercase subtitle-1 text--secondary"
+    >
+      about me
     </div>
-  </v-row>
+  </div>
 </template>
 
 <script>
@@ -47,8 +46,9 @@ export default {
 
 <style lang="scss" scoped>
 .centered-y {
-  right: 0.5rem;
-  transform: translate(30%, -20%);
+  // right: 0.5rem;
+  right: 0;
+  // transform: translate(30%, -20%);
 }
 .rotate-90 {
   transform: rotate(90deg);
