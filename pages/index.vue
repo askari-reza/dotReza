@@ -25,5 +25,11 @@ export default {
       console.log(err)
     }
   },
+  head() {
+    return {
+      title: 'dotReza',
+      titleTemplate: '%s',
+    }
+  },
 }
 </script>

@@ -9,6 +9,11 @@ export default {
       slug: params.slug,
     }
   },
+  head() {
+    return {
+      title: 'Works',
+    }
+  },
 }
 </script>
 
