@@ -3,7 +3,7 @@
     <main-section :content="main"></main-section>
     <about-section :content="about"></about-section>
     <techs-section :content="techs"></techs-section>
-    <banner-section></banner-section>
+    <banner-section :content="banner"></banner-section>
     <!-- <works-section></works-section> -->
     <inquiry-section :content="inquiry"></inquiry-section>
   </div>
@@ -13,13 +13,14 @@
 export default {
   async asyncData({ $content }) {
     try {
-      const [main, about, inquiry, techs] = await Promise.all([
+      const [main, about, inquiry, techs, banner] = await Promise.all([
         $content('sections/main').fetch(),
         $content('sections/about').fetch(),
         $content('sections/inquiry').fetch(),
         $content('sections/techs').fetch(),
+        $content('sections/banner').fetch(),
       ])
-      return { main, about, inquiry, techs }
+      return { main, about, inquiry, techs, banner }
     } catch (err) {
       // eslint-disable-next-line no-console
       console.log(err)

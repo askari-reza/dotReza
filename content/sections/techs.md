@@ -1,7 +1,4 @@
 ---
-images:
-    - /images/sections/main/001.png
-    - /images/sections/main/002.png
 ---
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Egestas purus viverra accumsan in nisl nisi
+I'm using the Vue and Nuxt frameworks for frontend development and the Vuetify library for the UI.
+I also have experience using jQuery and Bootstrap in developing WordPress websites.

@@ -34,13 +34,18 @@
         <v-col
           class="
             d-flex
-            flex-row
-            justify-end
-            align-center
+            flex-column
+            align-end
+            justify-center
             text-uppercase text--primary
           "
         >
           &copy; {{ currentYear }} all rights reserved
+
+          <span class="text-lowercase subtitle-2"
+            >all illustrations from
+            <a href="https://undraw.co" target="_blank">unDraw</a>
+          </span>
         </v-col>
       </v-row>
     </v-container>

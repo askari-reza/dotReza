@@ -38,10 +38,9 @@
           />
         </v-col> </v-row
     ></v-container>
-    <app-socials
-      v-if="!$vuetify.breakpoint.mobile"
-      class="centered-y"
-    ></app-socials>
+    <div v-if="!$vuetify.breakpoint.mobile" class="centered-y">
+      <app-socials></app-socials>
+    </div>
   </div>
 </template>
 

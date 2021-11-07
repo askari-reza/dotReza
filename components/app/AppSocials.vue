@@ -4,12 +4,14 @@
     :class="{ 'd-flex': horizontal }"
     :shaped="shaped"
     color="transparent"
+    width="auto"
   >
     <v-list-item
       v-for="item in contact"
       :key="item.title"
       :ripple="ripple"
       :href="item.link"
+      target="_blank"
     >
       <v-list-item-icon>
         <v-icon v-text="icons[item.icon]"></v-icon>

@@ -9,22 +9,22 @@
   },
   "instagram": {
     "title": "Instagram",
-    "link": "https://instagram.com/reza",
+    "link": "https://instagram.com/dotreza_com",
     "icon": "mdiInstagram"
   },
   "linkedin": {
     "title": "Linkedin",
-    "link": "https://linkedin.com/reza",
+    "link": "https://linkedin.com/in/dotreza",
     "icon": "mdiLinkedin"
   },
   "github": {
     "title": "Github",
-    "link": "https://github.com/reza",
+    "link": "https://github.com/dotreza",
     "icon": "mdiGithub"
   },
    "twitter": {
-    "title": "Github",
-    "link": "https://github.com/reza",
+    "title": "Twitter",
+    "link": "https://twitter.com/dotreza_com",
     "icon": "mdiTwitter"
   }
 }
