@@ -12,12 +12,14 @@
           alt=""
         />
         <v-card>
-          <v-card-text class="d-flex flex-row justify-space-around">
+          <v-card-text
+            class="d-flex flex-column flex-sm-row justify-space-around"
+          >
             <div>
               <p class="text-h3">{{ content.title }}</p>
               <p class="text-subtitle-1">{{ content.subtitle }}</p>
             </div>
-            <div class="d-flex align-center">
+            <div class="d-flex justify-end justify-sm-center align-center">
               <v-btn
                 :href="content.cta.link"
                 large

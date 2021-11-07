@@ -1,16 +1,16 @@
 <template>
   <v-container>
     <v-row>
-      <v-col cols="6" class="d-flex justify-center align-center">
+      <v-col cols="12" sm="6" class="d-flex justify-center align-center">
         <p class="text-center">
           <span class="font-italic"> Veni, Vidi, Vici </span>
           <br />
           <span class="font-weight-black">I came, I saw, I learned</span>
         </p>
       </v-col>
-      <v-col cols="6">
+      <v-col cols="12" sm="6">
         <v-img
-          :src="content.image"
+          :src="content.image.src"
           height="150"
           contain
           :aspect-ratio="16 / 9"
@@ -29,12 +29,6 @@ export default {
       required: true,
     },
   },
-  data() {
-    return {
-      words: ['I came', 'I saw', 'I learned'],
-    }
-  },
-  computed: {},
 }
 </script>
 
